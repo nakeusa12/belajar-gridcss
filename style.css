@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container-wrap {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 300px;
+    background: #808080;
+}
+
+.baris-kedua {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 20px;
+    width: 100%;
+    height: 300px;
+}
+
+.col-one {
+    grid-column: span 6;
+    background: rgb(131, 0, 0);
+}
+
+.col-two {
+    grid-column: span 6;
+    background: aqua;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 20px;
+}
+
+.column-1 {
+    grid-column: span 4;
+    background: #ff1;
+}
+
+.column-2 {
+    grid-column: span 4;
+    background: rgb(88, 212, 5);
+}
+
+.column-3 {
+    grid-column: span 4;
+    background: rgb(187, 90, 0);
+}
+
+.baris-ketiga {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+    width: 100%;
+    height: 300px;
+}
+
+.kolum-1 {
+    grid-column: span 3;
+    background: rgba(6, 143, 255, 0.685);
+}
+
+.baris-keempat {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+    width: 100%;
+    height: 300px;
+}
+
+.first {
+    grid-column: span 4;
+    background: #000;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+}
+
+.first1 {
+    grid-column: span 12;
+    background: rgb(105, 0, 153);
+}
+
+.first2 {
+    grid-column: span 12;
+    background: rgb(153, 0, 94);
+}
+
+.two {
+    grid-column: span 4;
+    background: rgb(104, 104, 104);
+}
+
+.third {
+    grid-column: span 4;
+    background: rgb(26, 223, 118);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+}
+
+.box-1 {
+    grid-column: span 12;
+    background: rgb(49, 138, 221);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+}
+
+.thrid1,
+.thrid2 {
+    grid-column: span 6;
+    background: #000;
+}
+
+.box-2 {
+    grid-column: span 12;
+    background: rgb(75, 49, 221);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+    background: #808080;
+}
